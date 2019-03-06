@@ -32,4 +32,4 @@ app.get('/api/artists', function(request, response) {
 	}
 });
 
-app.listen(8000);
+app.listen(process.env.port || 8000);
